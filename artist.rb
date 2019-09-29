@@ -13,3 +13,4 @@ class Artist < ActiveRecord::Base
     ActiveRecord::Base.connection.execute(sql)
   end
 end	
+
