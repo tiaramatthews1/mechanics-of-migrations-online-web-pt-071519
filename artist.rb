@@ -1,7 +1,7 @@
 class Artist < ActiveRecord::Base
 
   def self.create_table
-    # create table using SQL here	    sql = <<-SQL
+    sql = <<-SQL
   CREATE TABLE IF NOT EXISTS songs (
       id INTEGER PRIMARY KEY,
       title TEXT,
